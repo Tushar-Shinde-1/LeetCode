@@ -3,7 +3,7 @@ public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
 
         unordered_set<int >s;
-    set<int>ans;
+    vector<int>ans;
 
         for( auto x: nums1)
         {
@@ -14,10 +14,11 @@ public:
         {
             if(s.find(x)!=s.end())
             {
-                ans.insert(x);
+                ans.push_back(x);
+                s.erase(x);
             }
         }
-        vector<int>a(ans.begin(),ans.end());
-        return a;
+        
+        return ans;
     }
 };
