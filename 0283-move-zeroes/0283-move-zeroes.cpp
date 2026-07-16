@@ -1,25 +1,21 @@
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
-        int first =0;
-        int second=0;
+        int autoinc=0;
 
-        while( first<nums.size())
+        for(auto x:nums)
         {
-            if(nums[first]!=0)
+            if(x!=0)
             {
-                nums[second++]=nums[first];
+                nums[autoinc++]=x;
             }
-            first++;
         }
 
-        while(second<nums.size())
-        {
-            nums[second++]=0;
-        }
+while(autoinc<nums.size())
+{
+    nums[autoinc++]=0;
+}
 
-        
-   
         
     }
 };
