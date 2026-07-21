@@ -42,4 +42,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0349-intersection-of-two-arrays](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/0349-intersection-of-two-arrays) |
+## String
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/0020-valid-parentheses) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
