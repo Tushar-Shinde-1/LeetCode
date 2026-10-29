@@ -4,77 +4,39 @@
  * @return {ListNode}
  */
 var mergeKLists = function(lists) {
-    if (!lists.length) return null;
+    if (lists.length === 0) return null;
 
-    const heap = [];
+    function mergeTwoLists(l1, l2) {
+        const dummy = new ListNode(0);
+        let curr = dummy;
 
-    function push(node) {
-        heap.push(node);
-        let i = heap.length - 1;
-
-        while (i > 0) {
-            const p = Math.floor((i - 1) / 2);
-            if (heap[p].val <= heap[i].val) break;
-
-            [heap[p], heap[i]] = [heap[i], heap[p]];
-            i = p;
-        }
-    }
-
-    function pop() {
-        if (heap.length === 1) return heap.pop();
-
-        const min = heap[0];
-        heap[0] = heap.pop();
-
-        let i = 0;
-
-        while (true) {
-            let smallest = i;
-            const left = 2 * i + 1;
-            const right = 2 * i + 2;
-
-            if (
-                left < heap.length &&
-                heap[left].val < heap[smallest].val
-            ) {
-                smallest = left;
+        while (l1 && l2) {
+            if (l1.val <= l2.val) {
+                curr.next = l1;
+                l1 = l1.next;
+            } else {
+                curr.next = l2;
+                l2 = l2.next;
             }
-
-            if (
-                right < heap.length &&
-                heap[right].val < heap[smallest].val
-            ) {
-                smallest = right;
-            }
-
-            if (smallest === i) break;
-
-            [heap[i], heap[smallest]] = [heap[smallest], heap[i]];
-            i = smallest;
+            curr = curr.next;
         }
 
-        return min;
+        curr.next = l1 || l2;
+        return dummy.next;
     }
 
-    for (const node of lists) {
-        if (node !== null) push(node);
-    }
+    while (lists.length > 1) {
+        const merged = [];
 
-    const dummy = new ListNode(0);
-    let tail = dummy;
+        for (let i = 0; i < lists.length; i += 2) {
+            const l1 = lists[i];
+            const l2 = i + 1 < lists.length ? lists[i + 1] : null;
 
-    while (heap.length > 0) {
-        const node = pop();
-
-        tail.next = node;
-        tail = node;
-
-        if (node.next !== null) {
-            push(node.next);
+            merged.push(mergeTwoLists(l1, l2));
         }
+
+        lists = merged;
     }
 
-    tail.next = null;
-    return dummy.next;
+    return lists[0];
 };
