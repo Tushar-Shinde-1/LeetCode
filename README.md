@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0010-regular-expression-matching](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/0010-regular-expression-matching) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Database
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0010-regular-expression-matching](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/0010-regular-expression-matching) |
 | [0020-valid-parentheses](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/0125-valid-palindrome) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
@@ -117,4 +119,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+## Recursion
+|  |
+| ------- |
+| [0010-regular-expression-matching](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/0010-regular-expression-matching) |
 <!---LeetCode Topics End-->
