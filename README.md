@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
+| [3886-sum-of-sortable-integers](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/3886-sum-of-sortable-integers) |
 ## Two Pointers
 |  |
 | ------- |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0349-intersection-of-two-arrays](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/0349-intersection-of-two-arrays) |
+| [3886-sum-of-sortable-integers](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/3886-sum-of-sortable-integers) |
 ## String
 |  |
 | ------- |
@@ -78,4 +80,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
+## Math
+|  |
+| ------- |
+| [3886-sum-of-sortable-integers](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/3886-sum-of-sortable-integers) |
+## Enumeration
+|  |
+| ------- |
+| [3886-sum-of-sortable-integers](https://github.com/Tushar-Shinde-1/LeetCode/tree/master/3886-sum-of-sortable-integers) |
 <!---LeetCode Topics End-->
